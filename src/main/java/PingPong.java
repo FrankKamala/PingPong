@@ -3,7 +3,10 @@ import java.util.ArrayList;
 public class PingPong {
     public ArrayList<Object> runPingPong(int countUpTo){
         ArrayList<Object> result = new ArrayList<Object>();
-        result.add(1);
+     for (int i = 1; i<= countUpTo; i++){
+         result.add(i);
+        }
+
         return result;
     }
 //    public static void main(String[] args) {

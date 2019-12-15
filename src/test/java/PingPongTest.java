@@ -17,5 +17,10 @@ public class PingPongTest {
 
     @Test
     public void runPingPong_countUpToGivenNumber_ArrayList() throws Exception {
+        PingPong testPingPong = new PingPong();
+        ArrayList<Object> expectedOutput = new ArrayList<Object>();
+        expectedOutput.add(1);
+        expectedOutput.add(2);
+        assertEquals(expectedOutput, testPingPong.runPingPong(2));
     }
 }
